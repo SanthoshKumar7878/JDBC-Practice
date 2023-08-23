@@ -17,7 +17,7 @@ public class SampleProgramForDynamicOtherThenSelectTypeQuery
 	   System.out.println("Enter student new marks");
 	   double marks = sc.nextDouble();
 	   try
-	     {
+	   {
 	     	Class.forName("com.mysql.cj.jdbc.Driver");
 	     	String dburl = "jdbc:mysql://localhost:3306/adbe1?user=root&password=root";
 	     	Connection con = DriverManager.getConnection(dburl);
